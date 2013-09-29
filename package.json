@@ -3,7 +3,10 @@
   , "version" : "0.0.0"
   , "description" : "A tool for tracking your variables as they change"
   , "dependencies" : {
-     "socket.io" : "latest"
+     "coffee-script" : "latest"
+   , "redis" : "latest" 
+   , "coffee-middleware" : "latest"
+   , "socket.io" : "latest"
    , "express" : "latest"
    , "jade" : "latest"
   }
