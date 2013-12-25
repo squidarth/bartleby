@@ -4,15 +4,16 @@
   , "description" : "A tool for tracking your variables as they change"
   , "contributers" : ["Squidarth"]
   , "dependencies" : {
-     "coffee-script" : "latest"
-   , "optimist" : "latest" 
-   , "redis" : "latest"
-   , "coffee-middleware" : "latest"
-   , "socket.io" : "latest"
-   , "express" : "latest"
-   , "jade" : "latest"
+     "coffee-script" : "1.6.3"
+   , "optimist" : "0.6.0"
+   , "redis" : "0.10.0"
+   , "coffee-middleware" : "0.2.1"
+   , "socket.io" : "0.9.16"
+   , "express" : "3.4.7"
+   , "jade" : "1.0.0"
   }
   , "bin" : {
-    "bartleby" : "bin/bartleby.bin.coffee"
+      "bartleby_coffee" : "./node_modules/coffee-script/bin/coffee"
+    , "bartleby" : "bin/bartleby.bin.coffee"
   }
 }

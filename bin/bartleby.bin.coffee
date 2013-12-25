@@ -1,4 +1,4 @@
-#!/usr/bin/env coffee
+#!/usr/bin/env bartleby_coffee
 app = require("../app.coffee")
 optimist = require("optimist")
   .usage("Run the Bartleby server")

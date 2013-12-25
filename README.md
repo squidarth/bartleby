@@ -5,12 +5,8 @@
 In order to use Bartleby, you need to have Redis installed and running.  View
 http://redis.io/ for more information about how to install it.
 
-Since it is written in Node.js, Node.js and NPM must both be installed as well.
+Since it is written in Node.js, Node.js and NPM must both be installed.
 These can be downloaded at http://nodejs.org/download/.
-
-CoffeeScript must also be installed, with the command
-
-`npm install coffee-script -g`
 
 Bartleby can then be installed with the command
 `npm install bartleby -g`

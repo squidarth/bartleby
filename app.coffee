@@ -4,6 +4,10 @@ init = (port, redis_host, redis_port) ->
   redis = require "redis"
   redis_client = redis.createClient(redis_port, redis_host)
 
+  redis_client.on "error", (error) ->
+    console.log "There seems to be an error connecting to Redis.  Make sure it is running"
+    process.exit 1
+
   coffee_middleware = require 'coffee-middleware'
   app.use coffee_middleware(
     src: __dirname + "/public"
@@ -29,6 +33,7 @@ init = (port, redis_host, redis_port) ->
       io.sockets.emit "message", data
 
   redis_client.subscribe "bartleby"
+
   console.log "Started Bartleby Server on port #{port}"
 
 exports.init = init
