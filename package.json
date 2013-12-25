@@ -1,8 +1,12 @@
 {
     "name" : "bartleby"
-  , "version" : "0.0.1"
+  , "version" : "0.0.2"
   , "description" : "A tool for tracking your variables as they change"
-  , "contributers" : ["Squidarth"]
+  , "contributors" : ["Squidarth"]
+  , "repository" : {
+      "type" : "git"
+    , "url" : "http://github.com/squidarth/bartleby.git"
+    }
   , "dependencies" : {
      "coffee-script" : "1.6.3"
    , "optimist" : "0.6.0"
