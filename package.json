@@ -1,5 +1,5 @@
 {
-    "name" : "Bartleby"
+    "name" : "bartleby"
   , "version" : "0.0.1"
   , "description" : "A tool for tracking your variables as they change"
   , "contributers" : ["Squidarth"]
@@ -10,5 +10,8 @@
    , "socket.io" : "latest"
    , "express" : "latest"
    , "jade" : "latest"
+  }
+  , "bin" : {
+    "bartleby" : "bartleby.bin.coffee"
   }
 }
