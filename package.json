@@ -5,6 +5,7 @@
   , "contributers" : ["Squidarth"]
   , "dependencies" : {
      "coffee-script" : "latest"
+   , "optimist" : "latest" 
    , "redis" : "latest"
    , "coffee-middleware" : "latest"
    , "socket.io" : "latest"
