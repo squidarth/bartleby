@@ -1,10 +1,11 @@
 {
-    "name" : "VariableTracker"
-  , "version" : "0.0.0"
+    "name" : "Bartleby"
+  , "version" : "0.0.1"
   , "description" : "A tool for tracking your variables as they change"
+  , "contributers" : ["Squidarth"]
   , "dependencies" : {
      "coffee-script" : "latest"
-   , "redis" : "latest" 
+   , "redis" : "latest"
    , "coffee-middleware" : "latest"
    , "socket.io" : "latest"
    , "express" : "latest"
