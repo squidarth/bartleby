@@ -12,6 +12,6 @@
    , "jade" : "latest"
   }
   , "bin" : {
-    "bartleby" : "bartleby.bin.coffee"
+    "bartleby" : "bin/bartleby.bin.coffee"
   }
 }
