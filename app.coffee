@@ -5,7 +5,7 @@ init = (port, redis_host, redis_port) ->
   redis_client = redis.createClient(redis_port, redis_host)
 
   redis_client.on "error", (error) ->
-    console.log "There seems to be an error connecting to Redis.  Make sure it is running"
+    console.log "\x1B[31m\nThere seems to be an error connecting to Redis.  Make sure it is running\n\x1B[0m"
     process.exit 1
 
   coffee_middleware = require 'coffee-middleware'
