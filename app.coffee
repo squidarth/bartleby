@@ -25,7 +25,6 @@ init = (port, redis_host, redis_port) ->
   io = require("socket.io").listen(app.listen(port))
 
   io.sockets.on "connection", (socket) ->
-    socket.emit "message", message: "welcome"
     redis_client.on "message", (channel, message) ->
       if channel == "bartleby"
         socket.emit "message", message: message

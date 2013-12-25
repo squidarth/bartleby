@@ -4,4 +4,4 @@ $(document).ready () ->
 
   socket.on "message", (data) ->
     if data.message
-      $(".table").prepend("<tr><td>" + data.message +  "</td></tr>")
+      $(".table").append("<tr><td>" + data.message +  "</td></tr>")
